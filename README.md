@@ -76,6 +76,15 @@ git clone https://github.com/ktf40858-stack/l2-attacks-and-mitigations
 # 4. Run the attack again         -> it now fails; capture the difference
 ```
 
+## Related labs
+
+- [network-config-compliance](https://github.com/ktf40858-stack/network-config-compliance) — a tool that audits a Cisco IOS
+  configuration for the hardening used in these mitigations, and fails CI when it is missing.
+- [soc-tier1-detection-lab](https://github.com/ktf40858-stack/soc-tier1-detection-lab) — detecting these techniques once they
+  are already on the wire.
+- [palo-alto-segmentation-lab](https://github.com/ktf40858-stack/palo-alto-segmentation-lab) — the Layer 3 segmentation that
+  limits where a Layer 2 foothold can go next.
+
 ## Author
 
 Kodjo Apedoh — Network & Cloud Security · Arlington, VA
